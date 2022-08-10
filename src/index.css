@@ -10,8 +10,8 @@ body {
 
 .app {
   background-image: url('./photos/cold-bg8.jpg');
-  background-size: contain;
-  background-position: 50%;
+  background-size: cover;
+  background-position: 60%;
   transition: 0.4 initial;
 
 }
@@ -19,6 +19,7 @@ body {
 .app.warm {
   background-image: url('./photos/warm2-bg.jpg');
   height: 1000px;
+  background-size: cover;
 
 
 }

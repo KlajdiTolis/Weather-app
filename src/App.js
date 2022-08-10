@@ -1,4 +1,3 @@
-import { toBePartiallyChecked } from "@testing-library/jest-dom/dist/matchers";
 import React, { useEffect, useState } from "react";
 const api = {
   key: "8c56029e22fb9fa920a6d7bd5cccc211",
@@ -42,7 +41,6 @@ function App() {
     );
   }
 
-  console.log(weather.weather);
   const dateOf = (a) => {
     let months = [
       "January",
