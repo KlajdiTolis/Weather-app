@@ -11,15 +11,14 @@ body {
 .app {
   background-image: url('./photos/cold-bg8.jpg');
   background-size: cover;
-  background-position: 60%;
+  background-position: center;
   transition: 0.4 initial;
+  background-repeat: no-repeat;
 
 }
 
 .app.warm {
   background-image: url('./photos/warm2-bg.jpg');
-  height: 1000px;
-  background-size: cover;
 
 
 }
