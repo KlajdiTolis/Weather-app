@@ -7,6 +7,7 @@ function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
   const [time, setTime] = useState("");
+  
   const search = (evt) => {
     if (evt.key === "Enter") {
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
@@ -31,6 +32,7 @@ function App() {
       clearInterval(timerID);
     };
   });
+
   function tick() {
     const d = new Date();
     const h = d.getHours();
